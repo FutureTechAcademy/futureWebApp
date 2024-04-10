@@ -2,8 +2,8 @@ let myForm = document.querySelector(".myform")
 let inputField = myForm.getElementsByTagName("input")
 let validField = myForm.getElementsByTagName("p")
 
-const backendURL = "http://localhost:4000/std"
-// const backendURL = "https://futureweb.onrender.com/std"
+const backendURL = "https://futurewebapp-api.onrender.com/std"
+
 
 // Validation Function
 function Validation() {
