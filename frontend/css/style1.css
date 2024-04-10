@@ -1,0 +1,164 @@
+/* Nav Style */
+.nav-link{
+   color:white !important;
+   letter-spacing: 1px;
+}
+.nav-link:hover{
+    color:yellow !important;
+    background-color: blue ;
+    font-weight: bolder;
+ }
+
+
+ .sub-menu > li{
+   list-style-type: none;
+   padding: 5px;
+ }
+ .sub-menu-item
+ {
+   font-size: 14px;
+   text-decoration-line: none;
+   text-transform: uppercase;
+   color:white;
+   margin-left: 35px;
+   display:inline-block;
+   
+ }
+.sub-menu{
+   margin: 0;
+   padding: 0;
+}
+ .sub-menu > li:hover{
+   background-color:blue;
+   width:100%;
+ }
+ .dropdown-item
+ {
+  font-weight: bolder;
+  background-color: red;
+ }
+ .dropdown-item:hover{
+  cursor: pointer;
+ }
+ .dropdown-menu{
+  height: 400px;
+  overflow: auto;
+}
+
+/* Footer Style */
+.btn-footer{
+  margin-top: 5px;
+  margin-bottom:5px;
+  width:220px;
+  text-align: left;
+}
+.footer-link{
+  margin: 5px 5px 0 0;
+transition: transform 0.3s;
+}
+.footer-link:hover
+{
+  transform:scale(1.3);
+}
+.footer-links
+{
+  margin: 0;
+  padding: 0;
+}
+.footer-links > li 
+{
+  list-style: none;
+  margin-top: 10px; 
+  margin-left: 2px;
+}
+.footer-links > li >a{
+  text-decoration: none;
+  color:black;
+}
+.footer-links > li >a:hover{
+  font-weight: bolder;
+  color: rgb(38, 6, 243);
+}
+
+/* Slide Show Design */
+.slideOuter{
+  padding: 0;
+  overflow: hidden;
+  width:100%;
+}
+.slider
+{
+  height: 100%;
+  display:flex;
+  margin: 0;
+  padding: 0;
+}
+.slider > div{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.slider-bottom
+{
+  background-color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Card Design */
+.card-shadow
+{
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list > li{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+/* Student Register Form Design */
+.myform > input{
+  background-color: #f4f4f4;
+}
+
+.myform > p{
+  font-size: 14px;
+     color:red;
+     display: none;
+}
+
+
+/* Internship Btn */
+.indBtn:hover{
+cursor:default;
+}
+
+.mylist > li{
+      padding: 10px;
+      list-style-type:circle;
+      font-weight:400;
+      font-size: 18px;
+}
+
+
+/* Courses */
+.keyList > li{
+  line-height: 40px;
+  margin:2% 2% 2% 2%;
+}
+
+.cou_bottom > div
+{
+  float: left;
+  width:45%;
+  height: 200px;
+  margin: 2%;
+  padding: 3%;
+  font-size: 24px;
+  color: #0d6efd;
+}
