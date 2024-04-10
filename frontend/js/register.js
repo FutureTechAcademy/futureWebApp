@@ -32,24 +32,31 @@ function Validation() {
 function RegisterFun() {
     let ch = Validation()
     if (ch) {
-        const name = document.getElementById("sname").value
-        const email = document.getElementById("smail").value
-        const mobile = document.getElementById("sph").value
-        const city = document.getElementById("scity").value
+        const name = document.getElementById("sname")
+        const email = document.getElementById("smail")
+        const mobile = document.getElementById("sph")
+        const city = document.getElementById("scity")
+
+        const data={
+            name:name.value,
+            email:email.value,
+            mobile:mobile.value,
+            city:city.value
+        }
         fetch(backendURL, {
             method: "post",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ name, email, mobile, city })
+            body: JSON.stringify(data)
 
-        }).then((response) => {
-            console.log(response)
-            alert("registered successfully. Thank you!")
         })
-            .catch((err) => {
-                console.log(err)
-            })
+        alert("registered successfully. Thank you!")
+       name.value=""
+       email.value=""
+       mobile.value=""
+       city.value=""
+        
     }
     
 
