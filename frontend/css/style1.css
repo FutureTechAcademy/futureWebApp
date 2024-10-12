@@ -80,32 +80,6 @@ transition: transform 0.3s;
   color: rgb(38, 6, 243);
 }
 
-/*slide show*/ 
-
-.slideOuter {
-  position: relative;
-  overflow: hidden; /* Prevent overflow */
-}
-
-.slider {
-  display: flex; /* Use flexbox for horizontal layout */
-  transition: transform 0.5s ease; /* Smooth transition for slides */
-}
-
-.slider div {
-  min-width: 100%; /* Ensure each slide takes the full width */
-}
-
-.slider img {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Optional: Adjust the bottom image to be responsive */
-.slider-bottom {
-  width: 100%; /* Make bottom image responsive */
-  height: auto;
-}
 
 
 /* Card Design */
