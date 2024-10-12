@@ -80,32 +80,31 @@ transition: transform 0.3s;
   color: rgb(38, 6, 243);
 }
 
-/* Slide Show Design */
-.slideOuter{
-  padding: 0;
-  overflow: hidden;
-  width:100%;
+/*slide show*/ 
+
+.slideOuter {
+  position: relative;
+  overflow: hidden; /* Prevent overflow */
 }
-.slider
-{
-  height: 100%;
-  display:flex;
-  margin: 0;
-  padding: 0;
+
+.slider {
+  display: flex; /* Use flexbox for horizontal layout */
+  transition: transform 0.5s ease; /* Smooth transition for slides */
 }
-.slider > div{
-    height: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+
+.slider div {
+  min-width: 100%; /* Ensure each slide takes the full width */
 }
-.slider-bottom
-{
-  background-color: white;
-  border: 3px solid rgb(255, 255, 255);
-  border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.slider img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Adjust the bottom image to be responsive */
+.slider-bottom {
+  width: 100%; /* Make bottom image responsive */
+  height: auto;
 }
 
 
